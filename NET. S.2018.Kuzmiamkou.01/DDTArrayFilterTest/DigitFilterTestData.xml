@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestCases>
+  <TestCase>
+    <array>11, 12, 14, 5, 1, 6, 61</array>
+    <digit>6</digit>
+    <result>61</result>
+  </TestCase>
+  <TestCase>
+    <array>11, 12, 14, 5, 1, 6, 61</array>
+    <digit>1</digit>
+    <result>11, 12, 14, 1, 61</result>
+  </TestCase>
+</TestCases>

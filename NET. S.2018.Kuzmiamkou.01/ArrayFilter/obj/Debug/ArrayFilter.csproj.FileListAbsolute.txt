@@ -1,0 +1,6 @@
+C:\Users\Y50-70\source\repos\NET. S.2018.Kuzmiamkou.01\ArrayFilter\bin\Debug\ArrayFilter.dll
+C:\Users\Y50-70\source\repos\NET. S.2018.Kuzmiamkou.01\ArrayFilter\bin\Debug\ArrayFilter.pdb
+C:\Users\Y50-70\source\repos\NET. S.2018.Kuzmiamkou.01\ArrayFilter\obj\Debug\ArrayFilter.csprojResolveAssemblyReference.cache
+C:\Users\Y50-70\source\repos\NET. S.2018.Kuzmiamkou.01\ArrayFilter\obj\Debug\ArrayFilter.csproj.CoreCompileInputs.cache
+C:\Users\Y50-70\source\repos\NET. S.2018.Kuzmiamkou.01\ArrayFilter\obj\Debug\ArrayFilter.dll
+C:\Users\Y50-70\source\repos\NET. S.2018.Kuzmiamkou.01\ArrayFilter\obj\Debug\ArrayFilter.pdb

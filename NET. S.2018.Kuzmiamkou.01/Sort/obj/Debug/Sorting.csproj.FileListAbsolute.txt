@@ -1,0 +1,6 @@
+C:\Users\Y50-70\source\repos\NET. S.2018.Kuzmiamkou.01\NET. S.2018.Kuzmiamkou.01\bin\Debug\NET.S._2018.Kuzmiamkou._01.dll
+C:\Users\Y50-70\source\repos\NET. S.2018.Kuzmiamkou.01\NET. S.2018.Kuzmiamkou.01\bin\Debug\NET.S._2018.Kuzmiamkou._01.pdb
+C:\Users\Y50-70\source\repos\NET. S.2018.Kuzmiamkou.01\NET. S.2018.Kuzmiamkou.01\obj\Debug\Sorting.csproj.CoreCompileInputs.cache
+C:\Users\Y50-70\source\repos\NET. S.2018.Kuzmiamkou.01\NET. S.2018.Kuzmiamkou.01\obj\Debug\NET.S._2018.Kuzmiamkou._01.dll
+C:\Users\Y50-70\source\repos\NET. S.2018.Kuzmiamkou.01\NET. S.2018.Kuzmiamkou.01\obj\Debug\NET.S._2018.Kuzmiamkou._01.pdb
+C:\Users\Y50-70\source\repos\NET. S.2018.Kuzmiamkou.01\NET. S.2018.Kuzmiamkou.01\obj\Debug\Sorting.csprojResolveAssemblyReference.cache

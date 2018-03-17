@@ -1,0 +1,16 @@
+C:\Users\Y50-70\source\repos\NET. S.2018.Kuzmiamkou.01\DDTArrayFilterTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Y50-70\source\repos\NET. S.2018.Kuzmiamkou.01\DDTArrayFilterTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Y50-70\source\repos\NET. S.2018.Kuzmiamkou.01\DDTArrayFilterTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Y50-70\source\repos\NET. S.2018.Kuzmiamkou.01\DDTArrayFilterTest\bin\Debug\DDTArrayFilterTest.dll
+C:\Users\Y50-70\source\repos\NET. S.2018.Kuzmiamkou.01\DDTArrayFilterTest\bin\Debug\DDTArrayFilterTest.pdb
+C:\Users\Y50-70\source\repos\NET. S.2018.Kuzmiamkou.01\DDTArrayFilterTest\bin\Debug\ArrayFilter.dll
+C:\Users\Y50-70\source\repos\NET. S.2018.Kuzmiamkou.01\DDTArrayFilterTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Y50-70\source\repos\NET. S.2018.Kuzmiamkou.01\DDTArrayFilterTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Y50-70\source\repos\NET. S.2018.Kuzmiamkou.01\DDTArrayFilterTest\bin\Debug\ArrayFilter.pdb
+C:\Users\Y50-70\source\repos\NET. S.2018.Kuzmiamkou.01\DDTArrayFilterTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Y50-70\source\repos\NET. S.2018.Kuzmiamkou.01\DDTArrayFilterTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Y50-70\source\repos\NET. S.2018.Kuzmiamkou.01\DDTArrayFilterTest\obj\Debug\DDTArrayFilterTest.csprojResolveAssemblyReference.cache
+C:\Users\Y50-70\source\repos\NET. S.2018.Kuzmiamkou.01\DDTArrayFilterTest\obj\Debug\DDTArrayFilterTest.csproj.CoreCompileInputs.cache
+C:\Users\Y50-70\source\repos\NET. S.2018.Kuzmiamkou.01\DDTArrayFilterTest\obj\Debug\DDTArrayFilterTest.csproj.CopyComplete
+C:\Users\Y50-70\source\repos\NET. S.2018.Kuzmiamkou.01\DDTArrayFilterTest\obj\Debug\DDTArrayFilterTest.dll
+C:\Users\Y50-70\source\repos\NET. S.2018.Kuzmiamkou.01\DDTArrayFilterTest\obj\Debug\DDTArrayFilterTest.pdb

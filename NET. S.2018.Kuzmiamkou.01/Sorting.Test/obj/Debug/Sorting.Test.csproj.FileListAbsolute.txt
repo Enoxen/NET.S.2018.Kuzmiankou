@@ -1,0 +1,16 @@
+C:\Users\Y50-70\source\repos\NET. S.2018.Kuzmiamkou.01\Sorting.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Y50-70\source\repos\NET. S.2018.Kuzmiamkou.01\Sorting.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Y50-70\source\repos\NET. S.2018.Kuzmiamkou.01\Sorting.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Y50-70\source\repos\NET. S.2018.Kuzmiamkou.01\Sorting.Test\bin\Debug\Sorting.Test.dll
+C:\Users\Y50-70\source\repos\NET. S.2018.Kuzmiamkou.01\Sorting.Test\bin\Debug\Sorting.Test.pdb
+C:\Users\Y50-70\source\repos\NET. S.2018.Kuzmiamkou.01\Sorting.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Y50-70\source\repos\NET. S.2018.Kuzmiamkou.01\Sorting.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Y50-70\source\repos\NET. S.2018.Kuzmiamkou.01\Sorting.Test\bin\Debug\NET.S._2018.Kuzmiamkou._01.dll
+C:\Users\Y50-70\source\repos\NET. S.2018.Kuzmiamkou.01\Sorting.Test\bin\Debug\NET.S._2018.Kuzmiamkou._01.pdb
+C:\Users\Y50-70\source\repos\NET. S.2018.Kuzmiamkou.01\Sorting.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Y50-70\source\repos\NET. S.2018.Kuzmiamkou.01\Sorting.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Y50-70\source\repos\NET. S.2018.Kuzmiamkou.01\Sorting.Test\obj\Debug\Sorting.Test.csprojResolveAssemblyReference.cache
+C:\Users\Y50-70\source\repos\NET. S.2018.Kuzmiamkou.01\Sorting.Test\obj\Debug\Sorting.Test.csproj.CoreCompileInputs.cache
+C:\Users\Y50-70\source\repos\NET. S.2018.Kuzmiamkou.01\Sorting.Test\obj\Debug\Sorting.Test.csproj.CopyComplete
+C:\Users\Y50-70\source\repos\NET. S.2018.Kuzmiamkou.01\Sorting.Test\obj\Debug\Sorting.Test.dll
+C:\Users\Y50-70\source\repos\NET. S.2018.Kuzmiamkou.01\Sorting.Test\obj\Debug\Sorting.Test.pdb

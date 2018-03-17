@@ -1,0 +1,12 @@
+C:\Users\Y50-70\source\repos\NET. S.2018.Kuzmiamkou.01\ArrayFilterTest\bin\Debug\ArrayFilterTest.dll
+C:\Users\Y50-70\source\repos\NET. S.2018.Kuzmiamkou.01\ArrayFilterTest\bin\Debug\ArrayFilterTest.pdb
+C:\Users\Y50-70\source\repos\NET. S.2018.Kuzmiamkou.01\ArrayFilterTest\bin\Debug\ArrayFilter.dll
+C:\Users\Y50-70\source\repos\NET. S.2018.Kuzmiamkou.01\ArrayFilterTest\bin\Debug\nunit.framework.dll
+C:\Users\Y50-70\source\repos\NET. S.2018.Kuzmiamkou.01\ArrayFilterTest\bin\Debug\ArrayFilter.pdb
+C:\Users\Y50-70\source\repos\NET. S.2018.Kuzmiamkou.01\ArrayFilterTest\bin\Debug\nunit.framework.pdb
+C:\Users\Y50-70\source\repos\NET. S.2018.Kuzmiamkou.01\ArrayFilterTest\bin\Debug\nunit.framework.xml
+C:\Users\Y50-70\source\repos\NET. S.2018.Kuzmiamkou.01\ArrayFilterTest\obj\Debug\ArrayFilterTest.csprojResolveAssemblyReference.cache
+C:\Users\Y50-70\source\repos\NET. S.2018.Kuzmiamkou.01\ArrayFilterTest\obj\Debug\ArrayFilterTest.csproj.CoreCompileInputs.cache
+C:\Users\Y50-70\source\repos\NET. S.2018.Kuzmiamkou.01\ArrayFilterTest\obj\Debug\ArrayFilterTest.csproj.CopyComplete
+C:\Users\Y50-70\source\repos\NET. S.2018.Kuzmiamkou.01\ArrayFilterTest\obj\Debug\ArrayFilterTest.dll
+C:\Users\Y50-70\source\repos\NET. S.2018.Kuzmiamkou.01\ArrayFilterTest\obj\Debug\ArrayFilterTest.pdb

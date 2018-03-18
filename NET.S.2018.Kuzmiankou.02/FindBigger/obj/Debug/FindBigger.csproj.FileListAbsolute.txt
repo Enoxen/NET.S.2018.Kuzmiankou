@@ -1,0 +1,6 @@
+D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\FindBigger\bin\Debug\FindBigger.dll
+D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\FindBigger\bin\Debug\FindBigger.pdb
+D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\FindBigger\obj\Debug\FindBigger.csprojResolveAssemblyReference.cache
+D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\FindBigger\obj\Debug\FindBigger.csproj.CoreCompileInputs.cache
+D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\FindBigger\obj\Debug\FindBigger.dll
+D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\FindBigger\obj\Debug\FindBigger.pdb

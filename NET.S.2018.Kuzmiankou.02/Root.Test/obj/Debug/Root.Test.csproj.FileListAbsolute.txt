@@ -1,0 +1,17 @@
+D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\Root.Test\obj\Debug\Root.Test.csprojResolveAssemblyReference.cache
+D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\Root.Test\obj\Debug\Root.Test.csproj.CoreCompileInputs.cache
+D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\Root.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\Root.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\Root.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\Root.Test\bin\Debug\RootTestData.xml
+D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\Root.Test\bin\Debug\Root.Test.dll
+D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\Root.Test\bin\Debug\Root.Test.pdb
+D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\Root.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\Root.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\Root.Test\bin\Debug\Root.dll
+D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\Root.Test\bin\Debug\Root.pdb
+D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\Root.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\Root.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\Root.Test\obj\Debug\Root.Test.csproj.CopyComplete
+D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\Root.Test\obj\Debug\Root.Test.dll
+D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\Root.Test\obj\Debug\Root.Test.pdb

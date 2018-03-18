@@ -53,6 +53,14 @@
       <Project>{82f8bef8-adf1-40c0-9555-9078632b999e}</Project>
       <Name>BitInsert</Name>
     </ProjectReference>
+    <ProjectReference Include="..\FindBigger\FindBigger.csproj">
+      <Project>{4948e261-8052-4eac-994f-17306fe48c5c}</Project>
+      <Name>FindBigger</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Root\Root.csproj">
+      <Project>{f9a0cd84-0a3f-4afa-8649-ef3ce8cf3348}</Project>
+      <Name>Root</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

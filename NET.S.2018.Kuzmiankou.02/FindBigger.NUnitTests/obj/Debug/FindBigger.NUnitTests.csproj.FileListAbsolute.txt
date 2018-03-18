@@ -1,0 +1,12 @@
+D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\FindBigger.NUnitTests\bin\Debug\FindBigger.NUnitTests.dll
+D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\FindBigger.NUnitTests\bin\Debug\FindBigger.NUnitTests.pdb
+D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\FindBigger.NUnitTests\bin\Debug\FindBigger.dll
+D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\FindBigger.NUnitTests\bin\Debug\nunit.framework.dll
+D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\FindBigger.NUnitTests\bin\Debug\FindBigger.pdb
+D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\FindBigger.NUnitTests\bin\Debug\nunit.framework.pdb
+D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\FindBigger.NUnitTests\bin\Debug\nunit.framework.xml
+D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\FindBigger.NUnitTests\obj\Debug\FindBigger.NUnitTests.csprojResolveAssemblyReference.cache
+D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\FindBigger.NUnitTests\obj\Debug\FindBigger.NUnitTests.csproj.CoreCompileInputs.cache
+D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\FindBigger.NUnitTests\obj\Debug\FindBigger.NUnitTests.csproj.CopyComplete
+D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\FindBigger.NUnitTests\obj\Debug\FindBigger.NUnitTests.dll
+D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\FindBigger.NUnitTests\obj\Debug\FindBigger.NUnitTests.pdb

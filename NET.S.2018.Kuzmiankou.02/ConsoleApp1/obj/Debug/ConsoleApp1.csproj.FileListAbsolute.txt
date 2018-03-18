@@ -8,3 +8,7 @@ D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\Cons
 D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\ConsoleApp1\bin\Debug\BitInsert.dll
 D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\ConsoleApp1\bin\Debug\BitInsert.pdb
 D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CopyComplete
+D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\ConsoleApp1\bin\Debug\FindBigger.dll
+D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\ConsoleApp1\bin\Debug\FindBigger.pdb
+D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\ConsoleApp1\bin\Debug\Root.dll
+D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\ConsoleApp1\bin\Debug\Root.pdb

@@ -1,0 +1,17 @@
+D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\FindBigger.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\FindBigger.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\FindBigger.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\FindBigger.Test\bin\Debug\FindIntTestData.xml
+D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\FindBigger.Test\bin\Debug\FindBigger.Test.dll
+D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\FindBigger.Test\bin\Debug\FindBigger.Test.pdb
+D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\FindBigger.Test\bin\Debug\FindBigger.dll
+D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\FindBigger.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\FindBigger.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\FindBigger.Test\bin\Debug\FindBigger.pdb
+D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\FindBigger.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\FindBigger.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\FindBigger.Test\obj\Debug\FindBigger.Test.csprojResolveAssemblyReference.cache
+D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\FindBigger.Test\obj\Debug\FindBigger.Test.csproj.CoreCompileInputs.cache
+D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\FindBigger.Test\obj\Debug\FindBigger.Test.csproj.CopyComplete
+D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\FindBigger.Test\obj\Debug\FindBigger.Test.dll
+D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\FindBigger.Test\obj\Debug\FindBigger.Test.pdb

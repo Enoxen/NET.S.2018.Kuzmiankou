@@ -1,5 +1,7 @@
 ﻿using System;
 using insert;
+using FindBigger;
+using Root;
 
 namespace ConsoleApp1
 {
@@ -7,8 +9,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            int var = 9;
-            Console.WriteLine(BitInsert.InsertNumber(ref var, 1, 10, 11));
+            Console.WriteLine(RootFinder.FindNthRoot(82, 4, 0.000000000001f));
         }
     }
 }

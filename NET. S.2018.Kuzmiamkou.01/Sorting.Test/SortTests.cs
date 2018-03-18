@@ -18,7 +18,7 @@ namespace Sorting.Test
             int[] array = new int[] { 15, 2, -4, 5, 6 };
 
             // act
-            Sort.QuickSort(array, 0, array.Length - 1);
+            Sort.QuickSort(array);
                     
             // assert
             CollectionAssert.AreEqual(new int[] { -4, 2, 5, 6, 15 }, array);
@@ -31,7 +31,7 @@ namespace Sorting.Test
             int[] array = new int[] { 1, 2, 3, 4, 5, 6 };
 
             // act
-            Sort.QuickSort(array, 0, array.Length - 1);
+            Sort.QuickSort(array);
 
             // assert
             CollectionAssert.AreEqual(new int[] { 1, 2, 3, 4, 5, 6 }, array);
@@ -44,7 +44,7 @@ namespace Sorting.Test
             int[] array = null;
 
             // assert
-            Assert.ThrowsException<ArgumentNullException>(() => Sort.QuickSort(array, 0, 0));
+            Assert.ThrowsException<ArgumentNullException>(() => Sort.QuickSort(array));
         }
 
         [TestMethod]
@@ -54,7 +54,7 @@ namespace Sorting.Test
             int[] array = new int[] { 15, 2, 2, 4, 8, 4, 5, 15 };
 
             // act
-            Sort.QuickSort(array, 0, array.Length - 1);
+            Sort.QuickSort(array);
 
             // assert
             CollectionAssert.AreEqual(new int[] { 2, 2, 4, 4, 5, 8, 15, 15 }, array);
@@ -67,7 +67,7 @@ namespace Sorting.Test
             int[] array = new int[] { 15, 2, -4, 5, 6 };
 
             // act
-            Sort.MergeSort(array, 0, array.Length - 1);
+            Sort.MergeSort(array);
 
             // assert
             CollectionAssert.AreEqual(new int[] { -4, 2, 5, 6, 15 }, array);
@@ -80,7 +80,7 @@ namespace Sorting.Test
             int[] array = new int[] { 1, 2, 3, 4, 5, 6 };
 
             // act
-            Sort.MergeSort(array, 0, array.Length - 1);
+            Sort.MergeSort(array);
 
             // assert
             CollectionAssert.AreEqual(new int[] { 1, 2, 3, 4, 5, 6 }, array);
@@ -93,7 +93,7 @@ namespace Sorting.Test
             int[] array = new int[] { 15, 2, 2, 4, 8, 4, 5, 15 };
 
             // act
-            Sort.MergeSort(array, 0, array.Length - 1);
+            Sort.MergeSort(array);
 
             // assert
             CollectionAssert.AreEqual(new int[] { 2, 2, 4, 4, 5, 8, 15, 15 }, array);

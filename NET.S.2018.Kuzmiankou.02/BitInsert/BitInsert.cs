@@ -48,8 +48,7 @@ namespace insert
         private static string ReversedStringBits(int number)
         {
             string bits = Convert.ToString(number, 2);
-            Console.WriteLine("kek " + bits);
-
+            
             if (bits.Length < 32)
             {
                 char[] array = new char[32 - bits.Length];

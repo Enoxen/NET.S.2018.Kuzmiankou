@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestCases>
+  <TestCase>
+    <number>81</number>
+    <degree>4</degree>
+    <precision>0,0001</precision>
+    <expected>3</expected>
+  </TestCase>
+  <TestCase>
+    <number>8</number>
+    <degree>3</degree>
+    <precision>0,0001</precision>
+  </TestCase>
+</TestCases>

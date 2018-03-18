@@ -17,12 +17,21 @@ namespace Root.Test
         [TestMethod]
         public void TestMethod1()
         {
-            double number = Convert.ToDouble(TestContext.DataRow["number"]);
-            double degree = Convert.ToDouble(TestContext.DataRow["degree"]);
-            double precision = Convert.ToDouble(TestContext.DataRow["precision"]);
-            double expected = Convert.ToDouble(TestContext.DataRow["expected"]);
+            double number = Convert.ToDouble(Convert.ToString(TestContext.DataRow["number"]));
+            //double num = Convert.ToDouble(number);
+            double degree = Convert.ToDouble(Convert.ToString(TestContext.DataRow["degree"]));
+            double precision = Convert.ToDouble(Convert.ToString(TestContext.DataRow["precision"]));
+            
+            double expected = Convert.ToDouble(Convert.ToString(TestContext.DataRow["expected"]));
 
-            Assert.AreEqual(expected, RootFinder.FindNthRoot(number, degree, precision));
+            if (precision <= 0)
+            {
+                Assert.ThrowsException<ArgumentOutOfRangeException>(() => RootFinder.FindNthRoot(number, degree, precision));
+            }
+            else
+            {
+                Assert.AreEqual(expected, RootFinder.FindNthRoot(number, degree, precision));
+            }
         }
     }
 }

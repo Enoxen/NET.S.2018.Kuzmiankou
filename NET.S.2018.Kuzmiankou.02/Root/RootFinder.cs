@@ -14,6 +14,11 @@ namespace Root
             {
                 throw new ArgumentOutOfRangeException(nameof(precision));
             }
+            
+            if(number < 0 && rootDegree % 2 == 0)
+            {
+                throw new ArgumentOutOfRangeException(nameof(number) + " " + nameof(rootDegree));
+            }
 
             double x0 = new Random().Next(0,9);
 

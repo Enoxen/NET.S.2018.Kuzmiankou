@@ -3,7 +3,7 @@ using System.Text;
 
 namespace insert
 {
-    public class BitInsert
+    public class Insert
     {
         #region Public methods
         /// <summary>
@@ -14,7 +14,7 @@ namespace insert
         /// <param name="secondNumber">Number which bits a re to be inserted into another number.</param>
         /// <param name="i">Start position of insertion from 0 to 31, but i must be less or equal j.</param>
         /// <param name="j">End position of insertion from 0 to 31.</param>
-        public static int InsertNumber(ref int firstNumber, int secondNumber, int i, int j)
+        public static void InsertNumber(ref int firstNumber, int secondNumber, int i, int j)
         {
             if( i < 0 || i > 31)
             {
@@ -34,7 +34,7 @@ namespace insert
             firstBits.Insert(i, secondBits.Substring(0, j - i + 1));
             Console.WriteLine(ReverseString(firstBits.ToString()));
 
-            return Convert.ToInt32(ReverseString(firstBits.ToString()), 2);
+            firstNumber =  Convert.ToInt32(ReverseString(firstBits.ToString()), 2);
 
         }
         #endregion

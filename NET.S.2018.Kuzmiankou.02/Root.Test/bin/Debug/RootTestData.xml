@@ -19,9 +19,9 @@
     <expected>0,45</expected>
   </TestCase>
   <TestCase>
-    <number>81</number>
-    <degree>4</degree>
-    <precision>-1</precision>
+    <number>-1</number>
+    <degree>2</degree>
+    <precision>0,00001</precision>
     <expected>-1</expected>
   </TestCase>
 </TestCases>

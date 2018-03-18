@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestCases>
+  <TestCase>
+    <firstNumber>5</firstNumber>
+    <secondNUmber>0</secondNUmber>
+    <i>0</i>
+    <j>10</j>
+    <expected>0</expected>
+  </TestCase>
+  <TestCase>
+    <firstNumber>-1</firstNumber>
+    <secondNumber>0</secondNumber>
+    <i>0</i>
+    <j>31</j>
+    <expected>0</expected>
+  </TestCase>
+  <TestCase>
+    <firstNumber>-1</firstNumber>
+    <secondNumber>-1</secondNumber>
+    <i>27</i>
+    <j>26</j>
+    <expected>-1</expected>
+  </TestCase>
+  <TestCase>
+    <firstNumber>7</firstNumber>
+    <secondNumber>8</secondNumber>
+    <i>1</i>
+    <j>1</j>
+    <expected>5</expected>
+  </TestCase>
+</TestCases>

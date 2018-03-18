@@ -15,16 +15,15 @@ namespace Root.Test
             DataAccessMethod.Sequential)]
         [DeploymentItem("Root\\RootTestData.xml")]
         [TestMethod]
-        public void TestMethod1()
+        public void DDT_RootFind()
         {
             double number = Convert.ToDouble(Convert.ToString(TestContext.DataRow["number"]));
-            //double num = Convert.ToDouble(number);
             double degree = Convert.ToDouble(Convert.ToString(TestContext.DataRow["degree"]));
             double precision = Convert.ToDouble(Convert.ToString(TestContext.DataRow["precision"]));
             
             double expected = Convert.ToDouble(Convert.ToString(TestContext.DataRow["expected"]));
 
-            if (precision <= 0)
+            if (precision <= 0 ||(number < 0 && degree % 2 == 0))
             {
                 Assert.ThrowsException<ArgumentOutOfRangeException>(() => RootFinder.FindNthRoot(number, degree, precision));
             }

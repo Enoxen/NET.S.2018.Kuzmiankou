@@ -7,10 +7,4 @@ using NUnit.Framework;
 
 namespace Root.NUnitTests
 {
-    [TestFixture]
-    public class RootNUnit
-    {
-        [Test]
-        public 
-    }
 }

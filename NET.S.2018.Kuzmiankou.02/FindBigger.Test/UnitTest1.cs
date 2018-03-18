@@ -28,20 +28,13 @@ namespace FindBigger.Test
 
         [TestMethod]
         [ExpectedException(typeof(ArgumentOutOfRangeException))]
-        public void ExceptionTest()
+        public void ExceptionTest_ArgumentOutOfRange()
         {
             int number = -1;
 
             BiggerInteger.FindNextBiggerNumber(number);
         }
 
-        [TestMethod]
-        [ExpectedException(typeof(ArgumentOutOfRangeException))]
-        public void ExceptionTest1()
-        {
-            int number = 0;
 
-            BiggerInteger.FindNextBiggerNumber(number);
-        }
     }
 }

@@ -18,7 +18,7 @@ namespace Root.Test
         public void DDT_RootFind()
         {
             double number = Convert.ToDouble(Convert.ToString(TestContext.DataRow["number"]));
-            double degree = Convert.ToDouble(Convert.ToString(TestContext.DataRow["degree"]));
+            int degree = Convert.ToInt32(Convert.ToString(TestContext.DataRow["degree"]));
             double precision = Convert.ToDouble(Convert.ToString(TestContext.DataRow["precision"]));
             
             double expected = Convert.ToDouble(Convert.ToString(TestContext.DataRow["expected"]));
@@ -29,7 +29,7 @@ namespace Root.Test
             }
             else
             {
-                Assert.AreEqual(expected, RootFinder.FindNthRoot(number, degree, precision));
+                Assert.AreEqual(expected, RootFinder.FindNthRoot(number, degree, precision), precision);
             }
         }
     }

@@ -25,20 +25,19 @@ namespace BitInsert.Tests
 
             if (i < 0 || i > 31)
             {
-                Assert.ThrowsException<ArgumentOutOfRangeException>(() => Insert.InsertNumber(ref firstNumber, secondNumber, i, j));
+                Assert.ThrowsException<ArgumentOutOfRangeException>(() => Insert.InsertNumber(firstNumber, secondNumber, i, j));
             }
             else
             if (j < 0 || j > 31 || j < i)
             {
-                Assert.ThrowsException<ArgumentOutOfRangeException>(() => Insert.InsertNumber(ref firstNumber, secondNumber, i, j));
+                Assert.ThrowsException<ArgumentOutOfRangeException>(() => Insert.InsertNumber(firstNumber, secondNumber, i, j));
 
             }
             else
             {
+                int result = Insert.InsertNumber(firstNumber, secondNumber, i, j);
 
-                Insert.InsertNumber(ref firstNumber, secondNumber, i, j);
-
-                Assert.AreEqual(expected, firstNumber);
+                Assert.AreEqual(expected, result);
             }
 
 

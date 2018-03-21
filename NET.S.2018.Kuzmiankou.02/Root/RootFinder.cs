@@ -8,7 +8,7 @@ namespace Root
 {
     public class RootFinder
     {
-        public static double FindNthRoot(double number, double rootDegree, double precision)
+        public static double FindNthRoot(double number, int rootDegree, double precision)
         {
             if(precision <= 0)
             {
@@ -34,7 +34,7 @@ namespace Root
                 x0 = xK;
             }
 
-            return Math.Round(xK * 1000)/1000;
+            return xK;
         }
     }
 }

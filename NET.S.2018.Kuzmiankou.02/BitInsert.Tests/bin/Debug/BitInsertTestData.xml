@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <TestCases>
   <TestCase>
-    <firstNumber>5</firstNumber>
-    <secondNumber>0</secondNumber>
-    <i>0</i>
-    <j>10</j>
-    <expected>0</expected>
+    <firstNumber>0</firstNumber>
+    <secondNumber>-1</secondNumber>
+    <i>1</i>
+    <j>1</j>
+    <expected>2</expected>
   </TestCase>
   <TestCase>
     <firstNumber>-1</firstNumber>
@@ -27,5 +27,12 @@
     <i>1</i>
     <j>1</j>
     <expected>5</expected>
+  </TestCase>
+<TestCase>
+    <firstNumber>-1</firstNumber>
+    <secondNumber>0</secondNumber>
+    <i>5</i>
+    <j>10</j>
+    <expected>-2017</expected>
   </TestCase>
 </TestCases>

@@ -1,0 +1,9 @@
+D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\BitInsert.NUnitTests\bin\Debug\BitInsert.NUnitTests.dll
+D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\BitInsert.NUnitTests\bin\Debug\BitInsert.NUnitTests.pdb
+D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\BitInsert.NUnitTests\bin\Debug\BitInsert.dll
+D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\BitInsert.NUnitTests\bin\Debug\BitInsert.pdb
+D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\BitInsert.NUnitTests\obj\Debug\BitInsert.NUnitTests.csprojResolveAssemblyReference.cache
+D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\BitInsert.NUnitTests\obj\Debug\BitInsert.NUnitTests.csproj.CoreCompileInputs.cache
+D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\BitInsert.NUnitTests\obj\Debug\BitInsert.NUnitTests.csproj.CopyComplete
+D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\BitInsert.NUnitTests\obj\Debug\BitInsert.NUnitTests.dll
+D:\Programming\Курсы\C#\NET.S.2018.Kuzmiankou\NET.S.2018.Kuzmiankou.02\BitInsert.NUnitTests\obj\Debug\BitInsert.NUnitTests.pdb

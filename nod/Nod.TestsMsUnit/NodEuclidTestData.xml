@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<TestCases>
+  <TestCase>
+    <numbers>2,4,6,8</numbers>
+    <expected>2</expected>
+  </TestCase>
+  <TestCase>
+    <numbers>10,15,75</numbers>
+    <expected>5</expected>
+  </TestCase>
+
+</TestCases>

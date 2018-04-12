@@ -19,9 +19,6 @@ namespace TimerEvents.EventArgs
         /// <summary>
         /// Constructor for initialization.
         /// </summary>
-        /// <param name="timeOfEvent"></param>
-        /// <param name="mFrom"></param>
-        /// <param name="mTo"></param>
         public EndTimeEventArgs()
         {
             this.timeOfEvent = DateTime.Now;

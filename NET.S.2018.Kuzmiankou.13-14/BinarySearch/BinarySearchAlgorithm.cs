@@ -6,8 +6,18 @@ using System.Threading.Tasks;
 
 namespace BinarySearch
 {
+    /// <summary>
+    /// Generic binary search algorithm.
+    /// </summary>
     public static class BinarySearchAlgorithm
     {
+        /// <summary>
+        /// Generic binary search algorithm implementation.
+        /// </summary>
+        /// <typeparam name="T">Type param that implements IComparable</typeparam>
+        /// <param name="array">Array of objects of type T.</param>
+        /// <param name="target">Value to be found.</param>
+        /// <returns>Index of the target object.</returns>
         public static int BinarySearch<T>(T[] array, T target) where T: System.IComparable<T>
         {
             bool found = false;

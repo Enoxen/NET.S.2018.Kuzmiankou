@@ -4,8 +4,16 @@ using System.Numerics;
 
 namespace Fibonacci
 {
+    /// <summary>
+    /// Class provides methods for fibonacci serises generation.
+    /// </summary>
     public static class FibonacciNumbers
     {
+        /// <summary>
+        /// Fibonacci series generation iterative implementation.
+        /// </summary>
+        /// <param name="amount">Amount of numbers to be generated.</param>
+        /// <returns></returns>
         public static BigInteger[] GenerateFibonacciIter(int amount)
         {
             var fibb = new List<BigInteger>();
@@ -26,6 +34,11 @@ namespace Fibonacci
             return fibb.ToArray();
         }
 
+        /// <summary>
+        /// Public method that invokes private implementation of recursive algorithm.
+        /// </summary>
+        /// <param name="amount">Amount of numbers to be generated.</param>
+        /// <returns></returns>
         public static BigInteger[] GenerateFibonacciRecursive(int amount)
         {
             var fibb = new List<BigInteger>();
@@ -35,6 +48,14 @@ namespace Fibonacci
             return fibb.ToArray();
         }
 
+        /// <summary>
+        /// Recursive generation
+        /// </summary>
+        /// <param name="fibb">List of fibonacci numbers</param>
+        /// <param name="a">First parameter for recursive implementation</param>
+        /// <param name="b">Second parameter for recursive implementation</param>
+        /// <param name="counter">Counts iterations</param>
+        /// <param name="amount">Amount of numbers to be generated.</param>
         private static void FibRecursive(List<BigInteger> fibb, BigInteger a, BigInteger b, int counter, int amount)
         {
             if(counter <= amount)

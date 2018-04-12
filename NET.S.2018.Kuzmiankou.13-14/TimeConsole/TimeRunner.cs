@@ -10,7 +10,7 @@ using System.Numerics;
 using BinarySearch;
 namespace ConsoleApp1
 {
-    class Program
+    class TimeRunner
     {
         static void Main(string[] args)
         {

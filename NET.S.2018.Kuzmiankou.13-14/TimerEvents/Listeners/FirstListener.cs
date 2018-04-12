@@ -7,6 +7,7 @@ using TimerEvents.EventArgs;
 
 namespace TimerEvents.Listeners
 {
+
     public sealed class FirstListener
     {
         public FirstListener() { }

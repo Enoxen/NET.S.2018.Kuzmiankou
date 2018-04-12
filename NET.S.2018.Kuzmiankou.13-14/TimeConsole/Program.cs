@@ -7,13 +7,13 @@ using TimerEvents;
 using TimerEvents.Listeners;
 using Fibonacci;
 using System.Numerics;
+using BinarySearch;
 namespace ConsoleApp1
 {
     class Program
     {
         static void Main(string[] args)
         {
-            /*
               TimerManager manager = new TimerManager();
               FirstListener l1 = new FirstListener();
               SecondListener l2 = new SecondListener();
@@ -26,12 +26,6 @@ namespace ConsoleApp1
               l2.Unregister(manager);
 
               manager.SimulateEndTime(5);
-              */
-            var a = FibonacciNumbers.GenerateFibonacciRecursive(100);
-            foreach(BigInteger b in a)
-            {
-                Console.Write(b + " ");
-            }
         }
     }
 }

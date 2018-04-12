@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{983D8708-3DB1-4ACB-9477-E9624D8E5A19}</ProjectGuid>
+    <ProjectGuid>{76D663DF-949F-4EA6-8DB7-7F75C6307E13}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ClassLibrary1asd</RootNamespace>
-    <AssemblyName>ClassLibrary1asd</AssemblyName>
+    <RootNamespace>ConsoleApp1</RootNamespace>
+    <AssemblyName>ConsoleApp1</AssemblyName>
     <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -34,6 +34,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -49,17 +50,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FloatToBinary\DoubleToBinary.csproj">
-      <Project>{3432ef98-270b-4469-ac2e-badac6e3eceb}</Project>
-      <Name>DoubleToBinary</Name>
+    <ProjectReference Include="..\Fibonacci\Fibonacci.csproj">
+      <Project>{9fa393c7-9cb7-4934-b125-884cc78046e7}</Project>
+      <Name>Fibonacci</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Polynomial\Polynomial.csproj">
-      <Project>{97e2f528-041d-47a4-9e4f-0ee12d110eca}</Project>
-      <Name>Polynomial</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\ToDecimal\ToDecimal.csproj">
-      <Project>{01965963-7106-4f73-b9c3-160147abc0b0}</Project>
-      <Name>ToDecimal</Name>
+    <ProjectReference Include="..\TimerEvents\TimerEvents.csproj">
+      <Project>{9ee9c35c-c639-4d2c-96c4-615e110f1575}</Project>
+      <Name>TimerEvents</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

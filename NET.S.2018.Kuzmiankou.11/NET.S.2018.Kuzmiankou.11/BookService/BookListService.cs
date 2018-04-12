@@ -9,7 +9,21 @@ namespace NET.S._2018.Kuzmiankou._11.BookService
 {
     class BookListService
     {
-        private BookListStorage storage = new BookListStorage();
+        private List<Book> books = new List<Book>();
+
+        public List<Book> Books
+        {
+            get => books;
+
+            set
+            {
+                if (value == null)
+                {
+                    throw new ArgumentNullException($"Property set value is null");
+                }
+            }
+        }
+
         #region Public methods
         public void SortByTag(IComparer<Book> comparer)
         {

@@ -25,7 +25,7 @@ namespace FloatToBinaryTest
         [TestCase(0.0,  "0000000000000000000000000000000000000000000000000000000000000000")]
         public void FloatToBinary_255_255_Test(double number, string expected)
         {
-            string actual = number.ConvertToBinary();
+            string actual = number.DoubleToBinaryString();
             Assert.AreEqual(expected, actual);
         }
     }

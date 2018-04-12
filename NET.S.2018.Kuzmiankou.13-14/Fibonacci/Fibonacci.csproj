@@ -4,16 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{983D8708-3DB1-4ACB-9477-E9624D8E5A19}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>ClassLibrary1asd</RootNamespace>
-    <AssemblyName>ClassLibrary1asd</AssemblyName>
+    <ProjectGuid>{9FA393C7-9CB7-4934-B125-884CC78046E7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Fibonacci</RootNamespace>
+    <AssemblyName>Fibonacci</AssemblyName>
     <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -23,7 +22,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -34,6 +32,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -42,25 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="FibonacciNumbers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\FloatToBinary\DoubleToBinary.csproj">
-      <Project>{3432ef98-270b-4469-ac2e-badac6e3eceb}</Project>
-      <Name>DoubleToBinary</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Polynomial\Polynomial.csproj">
-      <Project>{97e2f528-041d-47a4-9e4f-0ee12d110eca}</Project>
-      <Name>Polynomial</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\ToDecimal\ToDecimal.csproj">
-      <Project>{01965963-7106-4f73-b9c3-160147abc0b0}</Project>
-      <Name>ToDecimal</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

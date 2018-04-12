@@ -7,66 +7,61 @@ using System.IO;
 
 namespace NET.S._2018.Kuzmiankou._11.BookStorage
 {
-    class BookListStorage
+    class BookListStorage : IBookStorage<Book>
     {
-        private List<Book> books = new List<Book>();
-
-        private readonly string path = @"..\..\..\Resources\Books.txt";
-
-        public List<Book> Books { get => books; }
-
-        public void WriteBookToFile(Book book)
+        /// <summary>
+        /// Writes books to the file.
+        /// </summary>
+        /// <param name="books">Collection of books.</param>
+        public void SaveBooks(IEnumerable<Book> books)
         {
-            using (var writer = new BinaryWriter(File.Open(path, FileMode.Append)))
+            if (books == null)
             {
-                WriteBookToFile(book, writer);
+                throw new ArgumentNullException(nameof(books));
             }
-        }
 
-        private void WriteBookToFile(Book book, BinaryWriter writer)
-        {
-            writer.Write(book.AuthorName);
-            writer.Write(book.ISBN);
-            writer.Write(book.NumberOfPages);
-            writer.Write(book.Price);
-            writer.Write(book.Title);
-            writer.Write(book.Year);
-        }
+            string path = " ";
 
-        public void WriteBooksToFile()
-        {
             using (var writer = new BinaryWriter(File.Open(path, FileMode.Append)))
             {
                 foreach (Book book in books)
                 {
-                    WriteBookToFile(book, writer);
+                    writer.Write(book.AuthorName);
+                    writer.Write(book.ISBN);
+                    writer.Write(book.NumberOfPages);
+                    writer.Write(book.Price);
+                    writer.Write(book.Title);
+                    writer.Write(book.Year);
                 }
             }
         }
 
-        public void ReadBooksFromFile(string path = null)
+        /// <summary>
+        /// Reads books from file.
+        /// </summary>
+        public IEnumerable<Book> ReadBooks()
         {
-            if(path == null)
+            string path = " ";
+            var books = new HashSet<Book>();
+            using (var reader = new BinaryReader(File.OpenRead(path)))
             {
-                using(var reader = new BinaryReader(File.OpenRead(path)))
+                while (reader.PeekChar() > -1)
                 {
-                    while(reader.PeekChar() > -1)
+                    var book = new Book
                     {
-                        var book = new Book
-                        {
-                            AuthorName = reader.ReadString(),
-                            ISBN = reader.ReadString(),
-                            NumberOfPages = reader.ReadInt32(),
-                            Price = reader.ReadDecimal(),
-                            Title = reader.ReadString(),
-                            Year = reader.ReadInt32()
-                        };
+                        AuthorName = reader.ReadString(),
+                        ISBN = reader.ReadString(),
+                        NumberOfPages = reader.ReadInt32(),
+                        Price = reader.ReadDecimal(),
+                        Title = reader.ReadString(),
+                        Year = reader.ReadInt32()
+                    };
 
-                        books.Add(book);
-                    }
+                    books.Add(book);
                 }
+
+                return books;
             }
-            
         }
     }
 }

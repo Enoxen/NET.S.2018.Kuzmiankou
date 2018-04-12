@@ -43,17 +43,12 @@
     <Compile Include="Book.cs" />
     <Compile Include="BookService\BookListService.cs" />
     <Compile Include="BookStorage\BookListStorage.cs" />
+    <Compile Include="BookStorage\IBookStorage.cs" />
     <Compile Include="ComparerClasses\AuthorComparer.cs" />
     <Compile Include="ComparerClasses\PagesComparer.cs" />
     <Compile Include="ComparerClasses\PriceComparer.cs" />
     <Compile Include="ComparerClasses\TitleComparer.cs" />
     <Compile Include="ComparerClasses\YearComparer.cs" />
-    <Compile Include="ComparerInterfaces\IBookComparerAuthor.cs" />
-    <Compile Include="ComparerInterfaces\IBookComparerPages.cs" />
-    <Compile Include="ComparerInterfaces\IBookComparerPrice.cs" />
-    <Compile Include="ComparerInterfaces\IBookComparerTitle.cs" />
-    <Compile Include="ComparerInterfaces\IBookComparerYear.cs" />
-    <Compile Include="ComparerInterfaces\IBookComparerIsbn.cs" />
     <Compile Include="Help\NumbersCompare.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

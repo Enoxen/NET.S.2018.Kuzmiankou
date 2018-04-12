@@ -9,7 +9,7 @@ namespace NET.S._2018.Kuzmiankou._11
     /// <summary>
     /// A book entity.
     /// </summary>
-    public sealed class Book:IComparable
+    public sealed class Book:IComparable, IComparable<Book>, IEquatable<Book>, IFormattable
     {
         #region Fields
         /// <summary>
@@ -128,6 +128,21 @@ namespace NET.S._2018.Kuzmiankou._11
 
         #region Public methods
         public int CompareTo(object obj)
+        {
+            throw new NotImplementedException();
+        }
+
+        public int CompareTo(Book other)
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Equals(Book other)
+        {
+            throw new NotImplementedException();
+        }
+
+        public string ToString(string format, IFormatProvider formatProvider)
         {
             throw new NotImplementedException();
         }

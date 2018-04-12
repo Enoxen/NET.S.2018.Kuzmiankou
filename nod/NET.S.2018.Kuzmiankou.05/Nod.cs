@@ -17,10 +17,7 @@ namespace nod
         /// <returns>Nod of input numbers.</returns>
         public static int FindNodEuclid(params int[] numbers)
         {
-            if (numbers.Length < 2)
-            {
-                throw new ArgumentOutOfRangeException(nameof(numbers));
-            }
+            ValidateInputData(numbers);
 
             int nod = Gcd(numbers[0], numbers[1]);
 
@@ -43,16 +40,13 @@ namespace nod
         /// <returns>Nod of input numbers.</returns>
         public static int FindSteinsNod(params int[] numbers)
         {
-            if (numbers.Length < 2)
-            {
-                throw new ArgumentOutOfRangeException(nameof(numbers));
-            }
+            ValidateInputData(numbers);
 
             int nod = SteinsNod(numbers[0], numbers[1]);
 
             if (numbers.Length > 2)
             {
-                for (int i = 0; i < numbers.Length; i++)
+                for (int i = 2; i < numbers.Length; i++)
                 {
                     nod = SteinsNod(nod, numbers[i]);
                 }
@@ -63,6 +57,20 @@ namespace nod
         #endregion
 
         #region Private methods
+
+        private static void ValidateInputData(int[] numbers)
+        {
+            if (numbers.Length < 2)
+            {
+                throw new ArgumentOutOfRangeException(nameof(numbers));
+            }
+
+            if (numbers == null)
+            {
+                throw new ArgumentNullException(nameof(numbers));
+            }
+        }
+
         /// <summary>
         /// Private realization of Euclid's NOD algorithm for
         /// two numbers.

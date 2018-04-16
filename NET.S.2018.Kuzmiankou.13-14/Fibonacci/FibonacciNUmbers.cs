@@ -14,54 +14,25 @@ namespace Fibonacci
         /// </summary>
         /// <param name="amount">Amount of numbers to be generated.</param>
         /// <returns></returns>
-        public static BigInteger[] GenerateFibonacciIter(int amount)
+        public static IEnumerable<BigInteger> GenerateFibonacci(int amount)
         {
-            var fibb = new List<BigInteger>();
-
             BigInteger a = 0, b = 1, c = 0;
-
-            fibb.Add(a);
-            fibb.Add(b);
-
-            for(int i = 2; i < amount; i++)
+            for(int i = 0; i < amount; i++)
             {
+                if (i == 0)
+                {
+                    yield return 0;
+                }
+                
+                if (i == 1)
+                {
+                    yield return 1;
+                }
                 c = a + b;
-                fibb.Add(c);
   
                 a = b;
                 b = c;
-            }
-            return fibb.ToArray();
-        }
-
-        /// <summary>
-        /// Public method that invokes private implementation of recursive algorithm.
-        /// </summary>
-        /// <param name="amount">Amount of numbers to be generated.</param>
-        /// <returns></returns>
-        public static BigInteger[] GenerateFibonacciRecursive(int amount)
-        {
-            var fibb = new List<BigInteger>();
-           
-
-            FibRecursive(fibb, 0, 1, 1, amount);
-            return fibb.ToArray();
-        }
-
-        /// <summary>
-        /// Recursive generation
-        /// </summary>
-        /// <param name="fibb">List of fibonacci numbers</param>
-        /// <param name="a">First parameter for recursive implementation</param>
-        /// <param name="b">Second parameter for recursive implementation</param>
-        /// <param name="counter">Counts iterations</param>
-        /// <param name="amount">Amount of numbers to be generated.</param>
-        private static void FibRecursive(List<BigInteger> fibb, BigInteger a, BigInteger b, int counter, int amount)
-        {
-            if(counter <= amount)
-            {
-                fibb.Add(a);
-                FibRecursive(fibb, b, a + b, counter + 1, amount);
+                yield return c;
             }
         }
     }

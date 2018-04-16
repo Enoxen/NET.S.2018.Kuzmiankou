@@ -14,18 +14,23 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-              TimerManager manager = new TimerManager();
-              FirstListener l1 = new FirstListener();
-              SecondListener l2 = new SecondListener();
+            StringBuilder bi = new StringBuilder();
+            int a = 0;
+            Console.WriteLine(ReferenceEquals(bi, null));
+            Console.WriteLine(ReferenceEquals(a, null));
 
-              l1.Register(manager);
-              l2.Register(manager);
+            TimerManager manager = new TimerManager();
+            FirstListener l1 = new FirstListener();
+            SecondListener l2 = new SecondListener();
 
-              manager.SimulateEndTime(5);
+            l1.Register(manager);
+            l2.Register(manager);
 
-              l2.Unregister(manager);
+            manager.SimulateEndTime(5);
 
-              manager.SimulateEndTime(5);
+            l2.Unregister(manager);
+
+            manager.SimulateEndTime(5);
         }
     }
 }

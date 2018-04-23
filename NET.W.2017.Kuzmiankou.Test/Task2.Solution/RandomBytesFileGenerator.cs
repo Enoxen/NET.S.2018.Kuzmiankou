@@ -1,27 +1,14 @@
 ﻿using System;
 using System.IO;
 
-namespace Task_2
+namespace Task2.Solution
 {
-    public class RandomBytesFileGenerator
+    public class RandomBytesFileGenerator:FileGenerator
     {
-        public string WorkingDirectory => "Files with random bytes";
+        public RandomBytesFileGenerator(string directory, string fileExtension)
+            :base(directory, fileExtension) { }
 
-        public string FileExtension => ".bytes";
-
-        public void GenerateFiles(int filesCount, int contentLength)
-        {
-            for (var i = 0; i < filesCount; ++i)
-            {
-                var generatedFileContent = this.GenerateFileContent(contentLength);
-
-                var generatedFileName = $"{Guid.NewGuid()}{this.FileExtension}";
-
-                this.WriteBytesToFile(generatedFileName, generatedFileContent);
-            }
-        }
-
-        private byte[] GenerateFileContent(int contentLength)
+        public override byte[] GenerateFileContent(int contentLength)
         {
             var random = new Random();
 
@@ -31,15 +18,6 @@ namespace Task_2
 
             return fileContent;
         }
-
-        private void WriteBytesToFile(string fileName, byte[] content)
-        {
-            if (!Directory.Exists(WorkingDirectory))
-            {
-                Directory.CreateDirectory(WorkingDirectory);
-            }
-
-            File.WriteAllBytes($"{WorkingDirectory}//{fileName}", content);
-        }
     }
 }
+    

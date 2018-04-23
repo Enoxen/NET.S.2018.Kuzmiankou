@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -96,11 +97,13 @@ namespace BSTree
         /// InOreder tree traverse method.
         /// </summary>
         /// <returns>Collection of traverse content.</returns>
-        public List<T> InOrder()
+        public IEnumerable<T> InOrder()
         {
-            traverseContent = new List<T>();
-            InOrder(root);
-            return traverseContent;
+           
+            foreach (T t in InOrder(root))
+            {
+                yield return t;
+            }
         }
 
         /// <summary>
@@ -132,13 +135,21 @@ namespace BSTree
         /// Private InOrder implementation
         /// </summary>
         /// <param name="n">Node of a tree.</param>
-        private void InOrder(Node n)
+        private IEnumerable<T> InOrder(Node n)
         {
             if (n != null)
             {
-                InOrder(n.left);
-                traverseContent.Add(n.value);
-                InOrder(n.right);
+                foreach (T t in InOrder(n.left))
+                {
+                    yield return n.value;
+                }
+
+                yield return n.value;
+
+                foreach (T t in InOrder(n.right))
+                {
+                    yield return n.value;
+                }
             }
         }
 
@@ -146,13 +157,22 @@ namespace BSTree
         /// Private PostOrder implementation
         /// </summary>
         /// <param name="n">Node of a tree.</param>
-        private void PostOrder(Node n)
+        private IEnumerable<T> PostOrder(Node n)
         {
             if (n != null)
             {
-                PostOrder(n.left);
-                PostOrder(n.right);
-                traverseContent.Add(n.value);
+                foreach (T t in PostOrder(n.left))
+                {
+                    yield return t;
+                }
+
+
+                foreach (T t in PostOrder(n.right))
+                {
+                    yield return t;
+                }
+
+                yield return n.value;
             }
         }
 
@@ -160,13 +180,20 @@ namespace BSTree
         /// Private PreOreder implementation
         /// </summary>
         /// <param name="n">Node of a tree.</param>
-        private void PreOrder(Node n)
+        private IEnumerable<T> PreOrder(Node n)
         {
             if (n != null)
             {
-                traverseContent.Add(n.value);
-                PreOrder(n.left);
-                PreOrder(n.right);
+                yield return n.value;
+                foreach (T t in PreOrder(n.left))
+                {
+                    yield return t;
+                }
+
+                foreach (T t in PreOrder(n.right))
+                {
+                    yield return t;
+                }
             }
         }
 

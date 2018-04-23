@@ -10,9 +10,20 @@ namespace BSTRunner
     {
         static void Main(string[] args)
         {
-            Console.WriteLine();
-            BinarySearchTree<int> tree = new BinarySearchTree<int>();
-            
+            Guid a = new Guid();
+            Guid b = new Guid();
+
+            Console.WriteLine(new Program());
+            /*Guid[] guids = { new Guid(), new Guid() };
+            object guidsClone = guids.Clone();
+            Console.WriteLine(guidsClone);
+
+            Guid[] copy = new Guid[guids.Length];
+            guids.CopyTo(copy, 0);
+            Console.WriteLine(guids == copy);
+            Console.WriteLine(guids.Equals(copy));
+            Console.WriteLine(object.Equals(guids, copy));
+            Console.WriteLine(object.ReferenceEquals(guids, copy));*/
         }
     }
 }

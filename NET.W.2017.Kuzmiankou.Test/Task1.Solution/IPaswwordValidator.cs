@@ -8,7 +8,8 @@ namespace Task1.Solution
 {
     interface IPasswordValidator
     {
-        bool ValidatePassword(string password);
+        Tuple<bool, string> ValidatePassword(string password);
+        string GetErrorMessage();
         
     }
 }

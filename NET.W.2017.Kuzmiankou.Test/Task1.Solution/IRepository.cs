@@ -8,5 +8,6 @@ namespace Task1.Solution
 {
     interface IRepository
     {
+        void Create(string password);
     }
 }

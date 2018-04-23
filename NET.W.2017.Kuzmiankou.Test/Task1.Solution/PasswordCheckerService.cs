@@ -8,16 +8,7 @@ namespace Task1.Solution
 
     class PasswordCheckerService
     {
-
-        private readonly Action<string> repoSave;
-
-
-        public PasswordCheckerService(IPasswordValidator validator, Action<string> action)
-        {
-            this.validator = validator ?? throw new ArgumentNullException($"{nameof(validator)} is null.");
-
-            repoSave = action ?? throw new ArgumentNullException($"{nameof(action)} shold not be null.");
-        }
+        private readonly IRepository repoSave;
 
         public Tuple<bool, string> VerifyPassword(string password, IEnumerable<IPasswordValidator> rules)
         {
@@ -26,9 +17,10 @@ namespace Task1.Solution
 
             foreach(var rule in rules)
             {
-                if (!rule.ValidatePassword(password).Item1)
+                var tempRule = rule.ValidatePassword(password);
+                if (tempRule.Item1)
                 {
-                    return Tuple.Create(false, rule.GetErrorMessage());
+                    return Tuple.Create(false, tempRule.Item2);
                 }  
             }
 

@@ -37,8 +37,8 @@ namespace Task2.Solution
             }
         }
 
-        public abstract byte[] GenerateFileContent(int contentLength);
-        public void WriteBytesToFile(string file, byte[] content)
+        protected abstract byte[] GenerateFileContent(int contentLength);
+        private void WriteBytesToFile(string file, byte[] content)
         {
             if (!Directory.Exists(WorkingDirectory))
             {

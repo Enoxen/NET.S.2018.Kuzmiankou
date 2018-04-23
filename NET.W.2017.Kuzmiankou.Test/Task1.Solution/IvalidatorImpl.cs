@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Task1.Solution
 {
-    class IPassLengthValidator : IPasswordValidator
+    class IPassLengthValidator :
     {
         public bool ValidatePassword(string password)
         {

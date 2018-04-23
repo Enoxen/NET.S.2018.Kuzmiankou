@@ -15,7 +15,7 @@ namespace Task3
 
         public Stock()
         {
-            stocksInfo = new StockInfo();
+            stocksInfo = new StockInfo(0,0);
         }
 
         public void Notify()

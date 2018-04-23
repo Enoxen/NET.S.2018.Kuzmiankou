@@ -19,6 +19,8 @@ namespace Task3
             stock.Event += Update;
         }
 
+
+
         public void Update(object sender, object info)
         {
             StockInfo sInfo = (StockInfo)info;

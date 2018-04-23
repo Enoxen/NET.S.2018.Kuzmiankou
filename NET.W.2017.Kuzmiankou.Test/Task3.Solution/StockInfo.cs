@@ -6,9 +6,15 @@ using System.Threading.Tasks;
 
 namespace Task3
 {
-    public class StockInfo
+    public class StockInfo: System.EventArgs
     {
         public int USD { get; set; }
         public int Euro { get; set; }
+
+        public StockInfo(int usd, int euro)
+        {
+            USD = usd;
+            Euro = euro;
+        }
     }
 }

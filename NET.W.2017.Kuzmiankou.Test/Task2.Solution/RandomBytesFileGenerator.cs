@@ -8,7 +8,7 @@ namespace Task2.Solution
         public RandomBytesFileGenerator(string directory, string fileExtension)
             :base(directory, fileExtension) { }
 
-        public override byte[] GenerateFileContent(int contentLength)
+        protected override byte[] GenerateFileContent(int contentLength)
         {
             var random = new Random();
 

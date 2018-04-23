@@ -11,7 +11,7 @@ namespace Task2.Solution
             base(workingDirectory, fileExtension)
         { }
 
-        public override byte[] GenerateFileContent(int contentLength)
+        protected override byte[] GenerateFileContent(int contentLength)
         {
             var generatedString = this.RandomString(contentLength);
 

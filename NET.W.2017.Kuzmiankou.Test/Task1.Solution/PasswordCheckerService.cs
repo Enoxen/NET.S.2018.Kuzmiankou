@@ -10,7 +10,6 @@ namespace Task1.Solution
     {
 
         private readonly Action<string> repoSave;
-        private readonly IPasswordValidator validator;
 
 
         public PasswordCheckerService(IPasswordValidator validator, Action<string> action)
@@ -20,24 +19,20 @@ namespace Task1.Solution
             repoSave = action ?? throw new ArgumentNullException($"{nameof(action)} shold not be null.");
         }
 
-        public Tuple<bool, string> VerifyPassword(string password)
+        public Tuple<bool, string> VerifyPassword(string password, IEnumerable<IPasswordValidator> rules)
         {
             if (password == null)
                 throw new ArgumentException($"{password} is null arg");
 
-            if (validator.ValidatePassword(password))
+            foreach(var rule in rules)
             {
-                repoSave.Invoke(password);
-                return Tuple.Create(true, "Password is Ok. User was created");
-            }
-            else
-            {
-                return Tuple.Create(false, "Password must match constriants. Length: 7-15, at least one alphanumeric char, at least one digit.");
+                if (!rule.ValidatePassword(password).Item1)
+                {
+                    return Tuple.Create(false, rule.GetErrorMessage());
+                }  
             }
 
-            
-
-            
+            return Tuple.Create(true, "Password is Ok. User was created");
         }
     }
 }

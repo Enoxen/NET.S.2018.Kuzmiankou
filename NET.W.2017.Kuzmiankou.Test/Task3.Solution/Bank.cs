@@ -6,20 +6,20 @@ using System.Threading.Tasks;
 
 namespace Task3
 {
-    public class Bank : IObserver
+    public class Bank
     {
-        private IObservable stock;
+        private Stock stock;
 
         public string Name { get; set; }
 
-        public Bank(string name, IObservable observable)
+        public Bank(string name, Stock stock)
         {
             this.Name = name;
-            stock = observable;
-            stock.Register(this);
+            this.stock = stock;
+            stock.Event += Update;
         }
 
-        public void Update(object info)
+        public void Update(object sender, object info)
         {
             StockInfo sInfo = (StockInfo)info;
 

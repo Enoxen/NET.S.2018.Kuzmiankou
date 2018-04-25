@@ -12,7 +12,6 @@ namespace BSTRunner
         {
             Guid a = new Guid();
             Guid b = new Guid();
-
             Console.WriteLine(new Program());
             /*Guid[] guids = { new Guid(), new Guid() };
             object guidsClone = guids.Clone();

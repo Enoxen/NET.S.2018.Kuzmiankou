@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Task1.Solution
 {
-    class SqlRepository
+    public class SqlRepository: IRepository
     {
         public void Create(string password)
         {

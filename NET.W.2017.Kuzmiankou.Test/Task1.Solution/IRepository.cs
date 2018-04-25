@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Task1.Solution
 {
-    interface IRepository
+    public interface IRepository
     {
         void Create(string password);
     }

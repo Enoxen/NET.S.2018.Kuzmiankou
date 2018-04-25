@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace Task1.Solution
 {
-    interface IPasswordValidator
+    public interface IPasswordValidator
     {
         Tuple<bool, string> ValidatePassword(string password);
-        string GetErrorMessage();
-        
     }
 }

@@ -4,18 +4,26 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Task3
+namespace Task3.Solution
 {
     public class Stock
     {
         private StockInfo stocksInfo;
-        public StockInfo StockInfo => stocksInfo;
+        public  StockInfo StockInfo => stocksInfo;
 
         public event EventHandler<StockInfo> Event = delegate { };
 
         public Stock()
         {
             stocksInfo = new StockInfo(0,0);
+        }
+        
+        public Stock(StockInfo info)
+        {
+            if (info is null)
+            {
+                throw new ArgumentNullException(nameof(info));
+            }
         }
 
         public void Notify()

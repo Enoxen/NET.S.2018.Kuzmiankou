@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Task3
+namespace Task3.Solution
 {
     public class Bank
     {
@@ -15,11 +15,10 @@ namespace Task3
         public Bank(string name, Stock stock)
         {
             this.Name = name;
+
             this.stock = stock;
             stock.Event += Update;
         }
-
-
 
         public void Update(object sender, object info)
         {

@@ -2,7 +2,8 @@
 {
     using System.Collections.Generic;
     using System;
-    using Task5;
+    using Task5.Solution;
+    using Task5.Solution.Converter;
 
     class Program
     {
@@ -11,17 +12,16 @@
             List<DocumentPart> parts = new List<DocumentPart>
                 {
                     new PlainText {Text = "Some plain text"},
-                    new Hyperlink {Text = "google.com", Url = "https://www.google.by/"},
+                    new HyperLink {Text = "google.com", Url = "https://www.google.by/"},
                     new BoldText {Text = "Some bold text"}
                 };
 
             Document document = new Document(parts);
 
-            Console.WriteLine(document.ToHtml());
-
-            Console.WriteLine(document.ToPlainText());
-
-            Console.WriteLine(document.ToLaTeX());
+            foreach(var str in document.Convert(new HTMLConverter()))
+            {
+                Console.WriteLine(str);
+            }
         }
     }
 }

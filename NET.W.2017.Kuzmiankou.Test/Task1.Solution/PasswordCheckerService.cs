@@ -6,9 +6,14 @@ using System.Threading.Tasks;
 namespace Task1.Solution
 {
 
-    class PasswordCheckerService
+    public class PasswordCheckerService
     {
         private readonly IRepository repoSave;
+
+        public PasswordCheckerService(IRepository repo)
+        {
+            repoSave = repo;
+        }
 
         public Tuple<bool, string> VerifyPassword(string password, IEnumerable<IPasswordValidator> rules)
         {
@@ -18,12 +23,16 @@ namespace Task1.Solution
             foreach(var rule in rules)
             {
                 var tempRule = rule.ValidatePassword(password);
-                if (tempRule.Item1)
+
+                if (tempRule.Item1 == false)
                 {
                     return Tuple.Create(false, tempRule.Item2);
-                }  
+                }
+
+                
             }
 
+            repoSave.Create(password);
             return Tuple.Create(true, "Password is Ok. User was created");
         }
     }

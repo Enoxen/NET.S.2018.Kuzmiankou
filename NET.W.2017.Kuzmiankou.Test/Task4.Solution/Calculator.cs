@@ -18,11 +18,12 @@ namespace Task4.Solution
             return method.Invoke(values);
         }
 
-        private static bool IsNullValues(List<double> values)
+        private static void IsNullValues(List<double> values)
         {
-            throw new ArgumentNullException(nameof(values));
+            if (values is null)
+            {
+                throw new ArgumentNullException(nameof(values));
+            }
         }
-
-
     }
 }

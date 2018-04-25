@@ -33,7 +33,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task5", "Task5\Task5.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task6.Tests", "Task6.Tests\Task6.Tests.csproj", "{FBB4E1E2-8D41-42DD-A2E5-6125DBD15343}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test6.Solution", "Test6.Solution\Test6.Solution.csproj", "{9584C57D-82D6-4ADD-80D9-B15F64723555}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task6.Solution", "Test6.Solution\Task6.Solution.csproj", "{9584C57D-82D6-4ADD-80D9-B15F64723555}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2", "Task2\Task2.csproj", "{291360D0-2872-4E91-9EC5-1F7A88187BF7}"
 EndProject

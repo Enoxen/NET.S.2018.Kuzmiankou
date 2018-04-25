@@ -50,13 +50,13 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Test6.Solution\Test6.Solution.csproj">
-      <Project>{9584c57d-82d6-4add-80d9-b15f64723555}</Project>
-      <Name>Test6.Solution</Name>
-    </ProjectReference>
+    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
   <ItemGroup>
-    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
+    <ProjectReference Include="..\Test6.Solution\Task6.Solution.csproj">
+      <Project>{9584c57d-82d6-4add-80d9-b15f64723555}</Project>
+      <Name>Task6.Solution</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

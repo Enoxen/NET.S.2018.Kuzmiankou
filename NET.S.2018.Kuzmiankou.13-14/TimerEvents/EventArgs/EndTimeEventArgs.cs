@@ -9,7 +9,7 @@ namespace TimerEvents.EventArgs
     /// <summary>
     /// Stores system time when event occured.
     /// </summary>
-    public class EndTimeEventArgs
+    public class EndTimeEventArgs:System.EventArgs
     {
         /// <summary>
         /// Time when event occured

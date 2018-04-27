@@ -14,7 +14,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            StringBuilder bi = new StringBuilder();
+            /*StringBuilder bi = new StringBuilder();
             int a = 0;
             Console.WriteLine(ReferenceEquals(bi, null));
             Console.WriteLine(ReferenceEquals(a, null));
@@ -30,7 +30,13 @@ namespace ConsoleApp1
 
             l2.Unregister(manager);
 
-            manager.SimulateEndTime(5);
+            manager.SimulateEndTime(5);*/
+
+            foreach (var t in FibonacciNumbers.GenerateFibonacci(10))
+            {
+                Console.WriteLine(t);
+            }
+
         }
     }
 }

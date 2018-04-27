@@ -16,8 +16,8 @@ namespace LabExam
 
         private ILogger logger;   // любой логгер, какой мы пожелаем
 
-        public Action<Printer> OnEndPrinting; // старт печати
-        public Func<Printer, bool> OnStartPrinting; // конец печати
+        public Action<Printer> OnEndPrinting { get; } // старт печати
+        public Func<Printer, bool> OnStartPrinting { get; } // конец печати
 
         public  ILogger Logger
         {

@@ -11,6 +11,7 @@ namespace LabExam
         [STAThread]
         static void Main(string[] args)
         {
+            PrinterManager manager = new PrinterManager();
             Console.WriteLine("Select your choice:");
             Console.WriteLine("1:Add new Epson printer");
             Console.WriteLine("2:Add new Canon printer");
@@ -21,40 +22,54 @@ namespace LabExam
 
             if (key.Key == ConsoleKey.D1)
             {
-                CreatePrinter();
+                CreateEpsonPrinter(manager);
             }
 
             if (key.Key == ConsoleKey.D2)
             {
-                Print(new CanonPrinter());
+                CreateCanonPrinter(manager);
             }
 
             if (key.Key == ConsoleKey.D3)
             {
-                Print(new EpsonPrinter());
+             
             }
 
-            while (true)
+            if (key.Key == ConsoleKey.D4)
             {
-                // waiting
+                
             }
         }
 
-        private static void Print(EpsonPrinter epsonPrinter)
+        private static void Print(Printer printer, PrinterManager manager)
         {
-            PrinterManager.Print(epsonPrinter);
-            PrinterManager.Log("Printed on Epson");
+            if (manager.OnStartPrinting.Invoke(printer))
+            {
+                manager.Print(printer);
+                manager.OnEndPrinting(printer);
+            }
+            else
+            {
+                Console.WriteLine("There is no such printer");
+            }
         }
 
-        private static void Print(CanonPrinter canonPrinter)
+        
+
+        private static void CreateCanonPrinter(PrinterManager m)
         {
-            PrinterManager.Print(canonPrinter);
-            PrinterManager.Log("Printed on Canon");
+            string name = Console.ReadLine();
+            string model = Console.ReadLine();
+
+            m.Add(new CanonPrinter(name, model));
         }
 
-        private static void CreatePrinter()
+        private static void CreateEpsonPrinter(PrinterManager m)
         {
-            PrinterManager.Add(new Printer());
+            string name = Console.ReadLine();
+            string model = Console.ReadLine();
+
+            m.Add(new EpsonPrinter(name, model));
         }
     }
 }

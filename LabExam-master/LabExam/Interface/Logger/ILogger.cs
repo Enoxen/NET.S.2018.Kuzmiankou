@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LabExam.Interface
+namespace LabExam.Interface.Logger
 {
-    interface ILogger
+    public interface ILogger // если нужны разные логгеры
     {
+        void Log(string content);     
     }
 }

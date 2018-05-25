@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace LabExam.Interface.Manager
 {
-    interface IPrinterManager
+    public interface IPrinterManager // если нам понадобится разные менеджеры
     {
+        void Add(Printer printer);
+        void Print(Printer print);
     }
 }

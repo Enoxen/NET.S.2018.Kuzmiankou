@@ -32,6 +32,8 @@ namespace ConsoleApp1
 
             manager.SimulateEndTime(5);*/
 
+            
+
             foreach (var t in FibonacciNumbers.GenerateFibonacci(10))
             {
                 Console.WriteLine(t);

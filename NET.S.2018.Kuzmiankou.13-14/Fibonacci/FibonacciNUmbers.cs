@@ -17,19 +17,11 @@ namespace Fibonacci
         public static IEnumerable<BigInteger> GenerateFibonacci(int amount)
         {
             BigInteger a = 0, b = 1, c = 0;
-            for(int i = 0; i < amount; i++)
+            yield return 0;
+            yield return 1;
+            for (int i = 2; i < amount; i++)
             {
-                if (i == 0)
-                {
-                    yield return 0;
-                }
-                
-                if (i == 1)
-                {
-                    yield return 1;
-                }
                 c = a + b;
-  
                 a = b;
                 b = c;
                 yield return c;
